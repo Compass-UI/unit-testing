@@ -31,3 +31,13 @@ E.g. for PhantomJS:
 `https://www.npmjs.com/package/karma-phantomjs-launcher`
 
 `gemini-david 🌴 : npm install --save-dev karma-phantomjs-launcher`
+
+## Testing Angular 
+[https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing)
+
+### Install ngMock
+
+[https://docs.angularjs.org/api/ngMock](https://docs.angularjs.org/api/ngMock)
+
+`npm install angular -S`
+`npm install angular-mocks -D`
