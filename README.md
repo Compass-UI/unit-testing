@@ -41,3 +41,7 @@ E.g. for PhantomJS:
 
 `npm install angular -S`
 `npm install angular-mocks -D`
+
+Include angular.js and angular-mocks.js in SpecRunner.html and karma.config.js files
+
+### How to use mgMock module and inject functions to include angular and angular-mocks in Unit Tests
