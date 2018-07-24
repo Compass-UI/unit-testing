@@ -23,3 +23,11 @@
 ## Running Unit Tests using Karma
 
 `gemini-david 🌴 : karma start karma.conf.js`
+
+## Install Karma launchers for each browser you wish to use
+
+E.g. for PhantomJS:
+
+`https://www.npmjs.com/package/karma-phantomjs-launcher`
+
+`gemini-david 🌴 : npm install --save-dev karma-phantomjs-launcher`
