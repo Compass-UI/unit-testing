@@ -19,3 +19,7 @@
 ## Start Karma configuration
 
 `gemini-david 🌴 : karma init`
+
+## Running Unit Tests using Karma
+
+`gemini-david 🌴 : karma start karma.conf.js`
