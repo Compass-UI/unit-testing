@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "angular": "^1.7.2",
-    "angular-mocks": "^1.7.2"
+    "angular-mocks": "^1.7.2",
+    "jquery": "^3.3.1",
+    "knockout": "^3.4.2"
   }
 }

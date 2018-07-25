@@ -45,3 +45,9 @@ E.g. for PhantomJS:
 Include angular.js and angular-mocks.js in SpecRunner.html and karma.config.js files
 
 ### How to use mgMock module and inject functions to include angular and angular-mocks in Unit Tests
+
+ngMod allows you to configure module in 3 ways:
+
+* string - cannot be injectable - cannot use other modules such as $http to be used here
+* function
+* object

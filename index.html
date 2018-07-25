@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knockout State Maintained Hot Reload</title>
+    <script src="./node_modules/knockout/build/output/knockout-latest.debug.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+
+    <h3 data-bind="text: name"></h3>
+
+    <input type="text" data-bind="value: fname">
+    <span data-bind="text: fname"></span>
+
+    <input type="text" data-bind="value: fname">
+    <span data-bind="text: fname"></span>
+
+    <button>Change name</button>
+        
+    <script src="./koscript.js"></script>
+    <script src="./qscript.js"></script>
+</body>
+</html>
