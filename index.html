@@ -12,12 +12,12 @@
 
     <h3 data-bind="text: name"></h3>
 
-    <input type="text" data-bind="value: fname">
+    <input type="text" data-bind="value: fname, valueUpdate: 'afterKeydown'">
     <span data-bind="text: fname"></span>
 
-    <input type="text" data-bind="value: fname">
-    <span data-bind="text: fname"></span>
-
+    <input type="text" data-bind="value: lname">
+    <span data-bind="text: lname"></span>
+    <br>
     <button>Change name</button>
         
     <script src="./koscript.js"></script>
